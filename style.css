@@ -1,0 +1,15 @@
+body {
+    font-size: 15px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
