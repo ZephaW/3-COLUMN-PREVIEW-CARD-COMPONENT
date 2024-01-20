@@ -1,5 +1,6 @@
 body {
     font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .sedans {
@@ -8,8 +9,44 @@ body {
 
 .SUV {
     background-color: hsl(184, 100%, 22%);
+    
+   
 }
 
-.luxury {
+.Luxury {
     background-color: hsl(179, 100%, 13%);
+}
+
+
+.attribution { 
+        font-size: 11px; text-align: center; 
+    }
+
+.attribution a {
+         color: hsl(228, 45%, 44%); 
+ }
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+
+    background-color: hsl(0, 0%, 95%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.SUV button {
+    color: hsl(184, 100%, 22%);
+}   
+
+.Luxury button {
+    color: hsl(179, 100%, 13%);
 }
