@@ -1,6 +1,18 @@
 body {
     font-size: 15px;
     background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0 ;
+    padding: 5rem 1rem 4rem 1rem; 
+    
+}
+
+.main-container {
+border-radius: 30px;
+}
+
+.sedans, .SUV, .Luxury {
+    padding: 2rem;
 }
 
 .sedans {
@@ -32,11 +44,17 @@ p {
 
 h1 {
     color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
 }
 
 button {
 
     background-color: hsl(0, 0%, 95%);
+    width: 50%;
+   
+    height: 2.5rem;
+    
 }
 
 .sedans button {
