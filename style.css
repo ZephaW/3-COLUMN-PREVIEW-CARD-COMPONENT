@@ -82,8 +82,68 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 576px, max-width: 768px) {
-    .container {
-        margin: 5rem 5rem 5rem 5rem;
+
+
+/* Small Devices (Tablets - Portrait) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    body { 
+        font-size: 17px;
+    }
+
+    .container{
+        margin: 8rem 1rem 8rem 1rem;  
+        
+    }
+
+  .h1 {
+      font-size: 2rem;
+    }
+
+p {
+    font-size: 1.5rem;}
+
+}
+  
+  /* Medium Devices (Tablets - Landscape) */
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+.sedans {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+
+.Luxury {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+.sedans, .SUV, .Luxury {
+    padding: 1.5rem;
+}
+
+  }
+  
+  /* Large Devices (Desktops and Laptops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    .container{
+        display: flex;
+        flex-direction: row;
     }
 }
+  
+  /* Extra Large Devices (Large Desktops) */
+  @media (min-width: 1200px) {
+    /* Styles for large desktops */
+  }
+
+
+
