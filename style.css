@@ -138,12 +138,49 @@ p {
         display: flex;
         flex-direction: row;
     }
+
+    .sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    
+    .Luxury {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
 }
+ }
   
   /* Extra Large Devices (Large Desktops) */
-  @media (min-width: 1200px) {
-    /* Styles for large desktops */
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    
+    .Luxury {
+       
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+
   }
 
+    .sedans, .SUV, .Luxury {
+        height: 30rem;
+        
+    }
+
+}
 
 
