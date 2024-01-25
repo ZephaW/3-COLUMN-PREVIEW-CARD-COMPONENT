@@ -13,10 +13,7 @@ body {
 }
 
 .container {
-
 margin: 5rem 1rem 5rem 1rem;  
-
-    
 }
 
 .sedans, .SUV, .Luxury {
@@ -31,8 +28,6 @@ margin: 5rem 1rem 5rem 1rem;
 
 .SUV {
     background-color: hsl(184, 100%, 22%);
-    
-   
 }
 
 .Luxury {
@@ -71,7 +66,9 @@ button {
     
 }
 
-
+.icon {
+    width: fit-content;
+}
 
 .sedans button {
     color: hsl(31, 77%, 52%);
